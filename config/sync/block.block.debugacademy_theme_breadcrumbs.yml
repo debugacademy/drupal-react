@@ -1,0 +1,27 @@
+uuid: bfe36e52-d768-42b9-9f8c-7e14387ceeed
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - debugacademy_theme
+_core:
+  default_config_hash: kGBJMXyDmDg5sa7AQOgzrkg2O5AB1DXYm77YJZedhRE
+id: debugacademy_theme_breadcrumbs
+theme: debugacademy_theme
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

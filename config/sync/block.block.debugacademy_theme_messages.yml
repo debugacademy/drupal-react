@@ -1,0 +1,22 @@
+uuid: 5a81b84b-1a86-4579-8136-490f5b6537a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - debugacademy_theme
+_core:
+  default_config_hash: wku2h2GdvhtQETfYHzEoHPtBs8Zvg3_tinempm1uGxI
+id: debugacademy_theme_messages
+theme: debugacademy_theme
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

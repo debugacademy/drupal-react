@@ -1,0 +1,6 @@
+react-fields:
+  js:
+    assets/react-int-fields.js: {}
+  css:
+    theme:
+      assets/slider.css: {}

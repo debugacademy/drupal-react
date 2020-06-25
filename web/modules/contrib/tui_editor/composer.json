@@ -1,0 +1,16 @@
+{
+    "name": "drupal/tui_editor",
+    "type": "drupal-module",
+    "description": "Toast UI Editor integration - GFM Markdown WYSIWYG Editor",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/tui_editor",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/tui_editor",
+        "source": "http://cgit.drupalcode.org/tui_editor"
+    },
+    "require": {
+        "drupal/markdown": "^1.2.0"
+    }
+}

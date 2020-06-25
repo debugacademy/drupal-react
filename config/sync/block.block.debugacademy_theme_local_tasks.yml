@@ -1,0 +1,22 @@
+uuid: abfcfaf7-9732-45a2-b563-5a78a593c9c8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - debugacademy_theme
+_core:
+  default_config_hash: D_u42KUsn2FJ3U01b1I7e0dyrCHEwk3KbFY1omR1i-s
+id: debugacademy_theme_local_tasks
+theme: debugacademy_theme
+region: header
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

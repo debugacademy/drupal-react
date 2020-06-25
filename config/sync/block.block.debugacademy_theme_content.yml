@@ -1,0 +1,22 @@
+uuid: 65162b77-2d54-41c7-81b7-f5a488a184ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - debugacademy_theme
+_core:
+  default_config_hash: fAAou3IaVWP7gVizy4k7aJ4njwWF5WnTnCVW68duc6Q
+id: debugacademy_theme_content
+theme: debugacademy_theme
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

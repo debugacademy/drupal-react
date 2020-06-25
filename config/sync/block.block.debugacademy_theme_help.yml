@@ -1,0 +1,22 @@
+uuid: 7a9339a6-d382-46b2-9eb8-a770f009f993
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - debugacademy_theme
+_core:
+  default_config_hash: hwPGi0Da9zOozalnzJ_sBJNI1Z1iM8nQQGhux08_-kM
+id: debugacademy_theme_help
+theme: debugacademy_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

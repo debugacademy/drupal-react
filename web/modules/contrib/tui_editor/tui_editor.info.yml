@@ -1,0 +1,16 @@
+name: Toast UI Editor
+type: module
+description: Toast UI Editor integration - GFM Markdown WYSIWYG Editor
+# core: 8.x
+package: Editor
+dependencies:
+  - drupal:editor
+  - drupal:media
+  - drupal:media_library
+  - markdown:markdown
+
+# Information added by Drupal.org packaging script on 2019-02-01
+version: '8.x-1.9'
+core: '8.x'
+project: 'tui_editor'
+datestamp: 1548998587

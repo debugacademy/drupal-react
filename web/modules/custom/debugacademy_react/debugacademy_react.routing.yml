@@ -1,0 +1,8 @@
+
+debugacademy_react.tasks_controller:
+  path: '/tasks'
+  defaults:
+    _controller: '\Drupal\debugacademy_react\Controller\TaskController::content'
+    _title: 'Debug Academy: Tasks'
+  requirements:
+    _permission: 'access content'

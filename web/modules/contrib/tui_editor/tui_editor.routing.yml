@@ -1,0 +1,12 @@
+
+tui_editor.media_image_controller_info:
+  path: '/tui_editor/media/{media}'
+  defaults:
+    _controller: '\Drupal\tui_editor\Controller\MediaImageController::info'
+    _title: 'Media Image Information'
+  requirements:
+    _permission: 'access content admin'
+  options:
+    parameters:
+      media:
+        type: entity:media

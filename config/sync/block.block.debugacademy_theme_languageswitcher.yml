@@ -1,0 +1,22 @@
+uuid: 08bccc93-3f0b-4a71-8e4f-a46fc896f3fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - debugacademy_theme
+_core:
+  default_config_hash: DqYisvDJbN_j5fWBCF6RVDYi5ZV62Yy8DABdtvRigME
+id: debugacademy_theme_languageswitcher
+theme: debugacademy_theme
+region: header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

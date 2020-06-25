@@ -1,0 +1,27 @@
+uuid: a885a544-e46c-44d3-ac77-207a657b845c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - debugacademy_theme
+_core:
+  default_config_hash: FsutfLN9jY7GHeIslGljFqxA8uofY0gHU3o7w4UFygI
+id: debugacademy_theme_page_title
+theme: debugacademy_theme
+region: header
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

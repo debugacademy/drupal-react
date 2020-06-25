@@ -1,0 +1,27 @@
+uuid: 5a12149c-759b-49c7-95ae-6c9e1ebf5a15
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: aON0yqk63ga8MocfOehPS4McI4tOXUuz0lvkNgcZJn4
+id: bartik_footer
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Tell us what you think'
+  provider: system
+  label_display: '1'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
