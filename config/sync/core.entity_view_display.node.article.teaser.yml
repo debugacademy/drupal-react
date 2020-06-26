@@ -1,42 +1,53 @@
-uuid: cdcb98cf-1370-4cfc-b57c-d719e5febe69
+uuid: d0a6a25f-5fad-4a4e-bd09-64ffa88b2ae7
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
-    - field.field.node.article.field_image
-    - field.field.node.article.field_overlay_color
-    - field.field.node.article.field_related_post
-    - field.field.node.article.field_resume
+    - field.field.node.article.field_media_image
     - field.field.node.article.field_tags
     - node.type.article
   module:
+    - text
     - user
 _core:
-  default_config_hash: UEO2uw1nNl4vcOeHvFSbU-duKISAKig6TyaTvdGLKVo
+  default_config_hash: ZPV7sE10QBYRFA06vmwaxCKMUn9R7CXVi0G6_WdmnLU
 id: node.article.teaser
 targetEntityType: node
 bundle: article
 mode: teaser
 content:
-  field_image:
+  body:
+    type: text_summary_or_trimmed
+    weight: 2
+    region: content
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    label: hidden
+  field_media_image:
     type: entity_reference_entity_view
-    weight: 0
+    weight: 1
     region: content
     label: hidden
     settings:
-      link: true
-      view_mode: default
+      view_mode: responsive_3x2
+      link: false
     third_party_settings: {  }
+  field_tags:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    settings:
+      link: true
+    third_party_settings: {  }
+    label: above
   links:
-    weight: 1
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
-  body: true
-  field_overlay_color: true
-  field_related_post: true
-  field_resume: true
-  field_tags: true
+  content_moderation_control: true
+  langcode: true

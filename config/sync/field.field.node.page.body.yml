@@ -1,4 +1,4 @@
-uuid: 9c25c1f6-bafe-4666-bcf3-5d5bfeed519c
+uuid: afab9cd6-d141-4915-b5ad-21d0de191d5f
 langcode: en
 status: true
 dependencies:
@@ -8,17 +8,18 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: n2RvHhxcY8Hy1z0oXt0HWAevbMALNFMDZbwN73tRvqw
+  default_config_hash: KgVkxLl_K3E3lvN6CEoWQIDT0V8J4Mv-fVYrAIc7-FE
 id: node.page.body
 field_name: body
 entity_type: node
 bundle: page
 label: Body
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   display_summary: true
+  required_summary: false
 field_type: text_with_summary
