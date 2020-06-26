@@ -16,8 +16,8 @@ _core:
   default_config_hash: GV14DJgIYE6E2q5G4j5sZUDkVLOjAEYDFs-8PwlsukM
 id: debugacademy_theme_banner_recipes
 theme: debugacademy_theme
-region: header
-weight: -8
+region: banner_top
+weight: -10
 provider: null
 plugin: 'block_content:4c7d58a3-a45d-412d-9068-259c57e40541'
 settings:

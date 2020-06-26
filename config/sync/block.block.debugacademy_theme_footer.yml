@@ -12,8 +12,8 @@ _core:
   default_config_hash: aON0yqk63ga8MocfOehPS4McI4tOXUuz0lvkNgcZJn4
 id: debugacademy_theme_footer
 theme: debugacademy_theme
-region: header
-weight: 0
+region: footer
+weight: -8
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

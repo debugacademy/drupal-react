@@ -12,8 +12,8 @@ _core:
   default_config_hash: Rq6NxuhkFzt-qV9HzBNhfwnuBFwj8Yq8sjYXUhUeV68
 id: debugacademy_theme_account_menu
 theme: debugacademy_theme
-region: header
-weight: 2
+region: pre_header
+weight: -7
 provider: null
 plugin: 'system_menu_block:account'
 settings:

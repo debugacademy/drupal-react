@@ -10,8 +10,8 @@ _core:
   default_config_hash: DqYisvDJbN_j5fWBCF6RVDYi5ZV62Yy8DABdtvRigME
 id: debugacademy_theme_languageswitcher
 theme: debugacademy_theme
-region: header
-weight: 0
+region: pre_header
+weight: -9
 provider: null
 plugin: 'language_block:language_interface'
 settings:

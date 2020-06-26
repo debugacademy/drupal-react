@@ -10,8 +10,8 @@ _core:
   default_config_hash: kGBJMXyDmDg5sa7AQOgzrkg2O5AB1DXYm77YJZedhRE
 id: debugacademy_theme_breadcrumbs
 theme: debugacademy_theme
-region: header
-weight: 0
+region: breadcrumbs
+weight: -9
 provider: null
 plugin: system_breadcrumb_block
 settings:

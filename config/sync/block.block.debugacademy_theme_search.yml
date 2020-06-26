@@ -10,8 +10,8 @@ _core:
   default_config_hash: ZY9oxdkWbmVbWG0Iiz0zvR5e2AgNxQIlAX0a80L-6qs
 id: debugacademy_theme_search
 theme: debugacademy_theme
-region: header
-weight: 1
+region: pre_header
+weight: -8
 provider: null
 plugin: search_form_block
 settings:

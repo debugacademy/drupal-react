@@ -10,8 +10,8 @@ _core:
   default_config_hash: FsutfLN9jY7GHeIslGljFqxA8uofY0gHU3o7w4UFygI
 id: debugacademy_theme_page_title
 theme: debugacademy_theme
-region: header
-weight: -7
+region: page_title
+weight: -9
 provider: null
 plugin: page_title_block
 settings:

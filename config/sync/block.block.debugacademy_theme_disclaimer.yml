@@ -15,8 +15,8 @@ _core:
   default_config_hash: TeOIzk3V4EhipVpBRgjtyn1BkWloX9v1gYju2zgBx80
 id: debugacademy_theme_disclaimer
 theme: debugacademy_theme
-region: header
-weight: 10
+region: bottom
+weight: -9
 provider: null
 plugin: 'block_content:9b4dcd67-99f3-48d0-93c9-2c46648b29de'
 settings:

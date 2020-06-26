@@ -13,8 +13,8 @@ _core:
   default_config_hash: FErCHEdY5eQdArPwmj2ED-XNDR6HIepmKNb7itEfQIQ
 id: debugacademy_theme_views_block__articles_aside_block_1
 theme: debugacademy_theme
-region: header
-weight: -7
+region: sidebar
+weight: -9
 provider: null
 plugin: 'views_block:articles_aside-block_1'
 settings:

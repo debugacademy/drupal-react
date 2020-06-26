@@ -15,8 +15,8 @@ _core:
   default_config_hash: eM6fnjb8TvAbqGZ0rVM4WigYMTSYmZ-9-pMGW4sNBwA
 id: debugacademy_theme_footer_promo
 theme: debugacademy_theme
-region: header
-weight: -1
+region: footer
+weight: -9
 provider: null
 plugin: 'block_content:924ab293-8f5f-45a1-9c7f-2423ae61a241'
 settings:

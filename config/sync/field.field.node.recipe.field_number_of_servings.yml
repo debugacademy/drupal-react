@@ -19,7 +19,7 @@ default_value: {  }
 default_value_callback: ''
 settings:
   min: 0
-  max: null
+  max: 40
   prefix: ''
-  suffix: ''
+  suffix: ' minutes'
 field_type: integer
