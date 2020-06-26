@@ -1,19 +1,19 @@
-uuid: bb4aaaa6-f48e-4416-b580-f22545ce23f9
+uuid: e8b0c6d8-f303-4c70-bbef-c018cca65943
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.page
+    - node.type.article
 _core:
-  default_config_hash: fPUEnm4T5zfZRr3ttDUqq7yCDd2uW3clWD-pvos4tlQ
-id: node.page.promote
+  default_config_hash: QkBquY6qG2KyWAqc5vcPXiX3CL8Eor4GkLczlOHaxAE
+id: node.article.promote
 field_name: promote
 entity_type: node
-bundle: page
+bundle: article
 label: 'Promoted to front page'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 0

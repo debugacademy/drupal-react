@@ -1,0 +1,12 @@
+uuid: 3acccdbe-e4f1-4bff-a239-17855571485c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: jZvH8d_DhDqp0q4utGAO24Hk-AVwm9nX7dQKfTIc9ww
+id: node.related_post
+label: 'Related Post'
+targetEntityType: node
+cache: true

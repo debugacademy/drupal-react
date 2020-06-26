@@ -1,24 +1,22 @@
-uuid: 9c25c1f6-bafe-4666-bcf3-5d5bfeed519c
+uuid: 9608e18c-54b4-4699-9fa4-5e71e8b2e98a
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.page
+    - node.type.project
   module:
     - text
-_core:
-  default_config_hash: n2RvHhxcY8Hy1z0oXt0HWAevbMALNFMDZbwN73tRvqw
-id: node.page.body
+id: node.project.body
 field_name: body
 entity_type: node
-bundle: page
-label: Body
+bundle: project
+label: Description
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  display_summary: true
+  display_summary: false
 field_type: text_with_summary

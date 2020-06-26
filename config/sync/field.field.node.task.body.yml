@@ -1,21 +1,19 @@
-uuid: 9c25c1f6-bafe-4666-bcf3-5d5bfeed519c
+uuid: a8db96b0-c5ab-4913-be0d-dce37d836496
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.page
+    - node.type.task
   module:
     - text
-_core:
-  default_config_hash: n2RvHhxcY8Hy1z0oXt0HWAevbMALNFMDZbwN73tRvqw
-id: node.page.body
+id: node.task.body
 field_name: body
 entity_type: node
-bundle: page
+bundle: task
 label: Body
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''

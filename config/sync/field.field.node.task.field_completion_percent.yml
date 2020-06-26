@@ -1,0 +1,23 @@
+uuid: 0621815e-cb77-451a-b06e-ca96e1d7b50f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_completion_percent
+    - node.type.task
+id: node.task.field_completion_percent
+field_name: field_completion_percent
+entity_type: node
+bundle: task
+label: '% of completion'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 100
+  prefix: ''
+  suffix: '%'
+field_type: integer

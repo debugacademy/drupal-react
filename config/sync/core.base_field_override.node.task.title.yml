@@ -1,0 +1,18 @@
+uuid: a10d3b0a-262e-4006-94d1-a8718dee8869
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.task
+id: node.task.title
+field_name: title
+entity_type: node
+bundle: task
+label: 'Task name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

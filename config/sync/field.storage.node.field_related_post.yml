@@ -1,21 +1,20 @@
-uuid: 53c3cb50-d137-4793-a099-0302adb29367
+uuid: 1b46c4c7-b806-4da4-85b7-a25d06423383
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - taxonomy
 _core:
-  default_config_hash: WpOE_bs8Bs_HY2ns7n2r__de-xno0-Bxkqep5-MsHAs
-id: node.field_tags
-field_name: field_tags
+  default_config_hash: B_aKHAh43c9fFLDRcVvX0aCIcChcJtPECkHcRVC6FU4
+id: node.field_related_post
+field_name: field_related_post
 entity_type: node
 type: entity_reference
 settings:
-  target_type: taxonomy_term
+  target_type: node
 module: core
 locked: false
-cardinality: -1
+cardinality: 3
 translatable: true
 indexes: {  }
 persist_with_no_fields: false
