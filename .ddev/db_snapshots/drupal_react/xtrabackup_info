@@ -1,16 +1,16 @@
-uuid = 21155f2a-b728-11ea-98b5-0242ac120003
+uuid = a66119cf-b777-11ea-a0a4-0242ac120003
 name = 
 tool_name = mariabackup
-tool_command = --backup --target-dir=/mnt/ddev_config/db_snapshots/drupal_20200625170907 --user=root --password=... --socket=/var/tmp/mysql.sock
+tool_command = --backup --target-dir=/mnt/ddev_config/db_snapshots/drupal_20200626062940 --user=root --password=... --socket=/var/tmp/mysql.sock
 tool_version = 10.2.31-MariaDB
 ibbackup_version = 10.2.31-MariaDB
 server_version = 10.2.31-MariaDB-1:10.2.31+maria~bionic-log
-start_time = 2020-06-25 21:09:09
-end_time = 2020-06-25 21:09:13
+start_time = 2020-06-26 10:29:41
+end_time = 2020-06-26 10:29:45
 lock_time = 0
-binlog_pos = filename 'mysql-bin.000002', position '163741612', GTID of the last change '0-1-47309'
+binlog_pos = filename 'mysql-bin.000001', position '388194957', GTID of the last change '0-1-48089'
 innodb_from_lsn = 0
-innodb_to_lsn = 118376507
+innodb_to_lsn = 452617383
 partial = N
 incremental = N
 format = file

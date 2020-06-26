@@ -1,4 +1,4 @@
-backup_type = log-applied
+backup_type = full-backuped
 from_lsn = 0
-to_lsn = 118376507
-last_lsn = 118376516
+to_lsn = 452617383
+last_lsn = 452617392
