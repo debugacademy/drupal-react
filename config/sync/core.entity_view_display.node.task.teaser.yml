@@ -27,4 +27,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_completion_percent: true
+  field_project: true
+  langcode: true
