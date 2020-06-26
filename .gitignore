@@ -8,3 +8,8 @@
 /.env
 /mariadb-init-jmolivas
 /mariadb-init-enzo
+
+web/sites/default/files/php
+web/sites/default/files/styles
+web/sites/default/files/languages
+web/sites/default/files/sync
