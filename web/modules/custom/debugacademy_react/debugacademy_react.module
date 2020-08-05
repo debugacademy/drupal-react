@@ -17,3 +17,12 @@ function debugacademy_react_preprocess_field(&$variables) {
   }
   return $variables;
 }
+
+function debugacademy_react_theme_registry_alter(&$theme_registry) {
+  $theme_registry['form_element']['path'] = drupal_get_path('module', 'debugacademy_react') . '/templates';
+  $theme_registry['field']['path'] = drupal_get_path('module', 'debugacademy_react') . '/templates';
+}
+
+function debugacademy_react_preprocess_page(array &$variables) {
+  $variables['#attached']['library'][] = 'debugacademy_react/react-fields';
+}
